@@ -1,9 +1,10 @@
+@import "~variables.scss";
 .container {
     display: flex;
     height: 300px;
     justify-content: center;//width
     align-items: center;//height
-    background-color: cadetblue;
+    background-color:$main-color;
     &>div {
         background-color: gray;
         width: 100px;
