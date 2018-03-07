@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./directionrowreverse.component.scss']
 })
 export class DirectionrowreverseComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  constructor() { 
+    
   }
+  ngOnInit() {
 
+  }
 }

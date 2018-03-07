@@ -4,6 +4,7 @@ import { ColumnlayoutComponent } from './columnlayout/columnlayout.component';
 import { DefaultlayoutComponent } from './defaultlayout/defaultlayout.component';
 import { ColumnreverseComponent } from './columnreverse/columnreverse.component';
 import { DirectionrowreverseComponent } from './directionrowreverse/directionrowreverse.component';
+import { PerfectcenterComponent } from './perfectcenter/perfectcenter.component';
 
 @NgModule({
   imports: [
@@ -13,13 +14,15 @@ import { DirectionrowreverseComponent } from './directionrowreverse/directionrow
      ColumnlayoutComponent,
      DefaultlayoutComponent,
      ColumnreverseComponent, 
-     DirectionrowreverseComponent
+     DirectionrowreverseComponent, 
+     PerfectcenterComponent
     ],
   exports: [ 
     ColumnlayoutComponent,
     DefaultlayoutComponent,
     ColumnreverseComponent, 
-    DirectionrowreverseComponent
+    DirectionrowreverseComponent,
+    PerfectcenterComponent
   ]
 })
 export class FlexModule { }
