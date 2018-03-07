@@ -6,10 +6,9 @@
     align-items: center;//height
     background-color:$main-color;
     &>div {
-        background-color: gray;
+        background-color: $second-color;
         width: 100px;
         margin: 10px;
         text-align: center;
-       
     }
 }
