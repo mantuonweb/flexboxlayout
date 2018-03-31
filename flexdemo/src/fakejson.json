@@ -1,0 +1,14 @@
+{
+	"msg": "Success",
+	"rCode": 100,
+	"outletList": [{
+		"id": "1",
+		"value": "outlet 1"
+	}, {
+		"id": "2",
+		"value": "outlet 2"
+	}, {
+		"id": "3",
+		"value": "outlet 3"
+	}]
+}
